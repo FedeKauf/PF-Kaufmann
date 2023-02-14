@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootsrtap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <!-- Librería Animate CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <!-- Favicon -->
+    <link
+      rel="shortcut icon"
+      href="https://res.cloudinary.com/dy73cnyb4/image/upload/v1676135537/Imagenes%20y%20videos%20de%20mi%20primer%20proyecto/faviconlambo_zcqetg.jpg"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Contact</title>
+  </head>
+  <body>
+    <!-- ENCABEZADO -->
+    <header>
+      <!-- LOGO -->
+      <div>
+        <a class="img-logo" href="../index.html">
+          <img
+            class="img-logo1"
+            src="https://res.cloudinary.com/dy73cnyb4/image/upload/v1676135540/Imagenes%20y%20videos%20de%20mi%20primer%20proyecto/logo-lamborghini1_wxncor.png"
+            alt="Logo marca Lamborghini"
+        /></a>
+      </div>
+      <!-- NAVEGACION -->
+      <nav class="nav__menu">
+        <ul>
+          <li><a href="../index.html">HOME</a></li>
+          <li><a href="./models.html">MODELS</a></li>
+          <li><a href="./about us.html">ABOUT US</a></li>
+          <li>
+            <a href="./store.html">STORE</a>
+          </li>
+          <li>
+            <a href="./contact.html" class="nav__listaMenu--activo">CONTACT</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!-- CONTENIDO PRINCIPAL -->
+    <main>
+      <h1>CONTACT US</h1>
+      <form class="contactus-form" action="#" method="GET">
+        <legend>Contact Form</legend>
+        <div class="mb-2 p-2">
+          <label class="form-label">Complete Name</label>
+          <input
+            type="text"
+            class="form-control bg-warning-form border-dark rounded-4"
+            placeholder="Your first name"
+          />
+        </div>
+        <div class="mb-2 p-2">
+          <label class="form-label">Complete Last Name</label>
+          <input
+            type="text"
+            class="form-control bg-warning-form border-dark rounded-4"
+            placeholder="Your last name"
+          />
+        </div>
+        <div class="mb-2 p-2">
+          <label class="form-label">Email address</label>
+          <input
+            type="email"
+            class="form-control bg-warning-form border-dark rounded-4"
+            placeholder="name@example.com"
+          />
+        </div>
+        <div class="mb-2 p-2">
+          <select
+            class="form-select btn bg-warning-form border-dark rounded-4"
+            aria-label="Default select example"
+          >
+            <option selected>Choose your country</option>
+            <option value="1">Argentina</option>
+            <option value="2">Brasil</option>
+            <option value="3">Colombia</option>
+            <option value="3">Perú</option>
+            <option value="3">Chile</option>
+            <option value="3">Ecuador</option>
+            <option value="3">Venezuela</option>
+            <option value="3">Bolivia</option>
+            <option value="3">Uruguay</option>
+            <option value="3">Paraguay</option>
+          </select>
+        </div>
+        <label>
+          <span class="mb-2 p-2">Comment</span>
+          <input
+            class="bg-warning-form"
+            type="radio"
+            value="comment"
+            name="radio"
+          />
+          <span>Claim</span>
+          <input type="radio" value="claim" name="radio" />
+        </label>
+        <div class="mb-2 p-2">
+          <label class="form-label">Enter your text here</label>
+          <textarea
+            class="form-control bg-warning-form border-dark rounded-4"
+            rows="3"
+            placeholder="Hello!, I am contacting you for..."
+          ></textarea>
+        </div>
+        <label>
+          <div class="form-check form-switch mb-2">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              role="switch"
+              unchecked
+            />
+            <label class="form-check-label">Check to receibe news</label>
+          </div>
+        </label>
+        <div>
+          <input
+            type="submit"
+            value="Send"
+            class="mb-2 p-2 bg-warning-form border-dark rounded-2"
+          />
+          <input
+            type="submit"
+            value="Clean Form"
+            class="mb-2 p-2 bg-warning-form border-dark rounded-2"
+          />
+        </div>
+      </form>
+    </main>
+    <!-- FOOTER -->
+    <footer class="footer-content">
+      <div>
+        <p>"Copyright © 2022 Automobili Lamborghini S.p.A."</p>
+        <p>All rights reserved.</p>
+      </div>
+      <a href="../index.html">Home</a>
+      <a href="https://www.facebook.com/Lamborghini/" target="_blank"
+        >Facebook</a
+      >
+      <a href="https://twitter.com/Lamborghini" target="_blank">Tweeter</a>
+      <a href="https://www.instagram.com/lamborghini/?hl=en" target="_blank"
+        >Instagram</a
+      >
+      <a href="https://www.lamborghini.com/en-en/wechat" target="_blank"
+        >Wechat</a
+      >
+      <a
+        href="https://www.youtube.com/channel/UC9DXZC8BCDOW6pYAQKgozqw"
+        target="_blank"
+        >Youtube</a
+      >
+    </footer>
+    <!-- Bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <!-- WOW JS -->
+    <script src="../js/wow.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+  </body>
+</html>

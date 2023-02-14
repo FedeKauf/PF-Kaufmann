@@ -1,0 +1,76 @@
+/* CSS de Sección "STORE" */
+
+.store-main-grid {
+  display: grid;
+  grid-template-columns: 33% 34% 33%;
+  grid-template-areas: auto;
+  width: 100vw;
+  grid-auto-flow: row;
+  grid-row-gap: 10px;
+  grid-template-areas:
+    "gap1 gap1-2 gap1-3"
+    "p1 p1 p1"
+    "gap2 gap2-2 gap2-3"
+    "p2 p2 p2";
+}
+.gap1 {
+  grid-area: gap1;
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.gap1-2 {
+  grid-area: gap1-2;
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+.gap1-3 {
+  grid-area: gap1-3;
+}
+.gap1-3 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.p1 {
+  grid-area: p1;
+  text-align: center;
+  font-size: 25px;
+  padding: 20px;
+}
+.gap2 {
+  grid-area: gap2;
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+.gap2-2 {
+  grid-area: gap2-2;
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+.gap2-3 {
+  grid-area: gap2-3;
+}
+.gap2-3 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.p2 {
+  grid-area: p2;
+  text-align: center;
+  font-size: 25px;
+  padding: 20px;
+}
