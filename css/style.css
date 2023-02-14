@@ -1,5 +1,6 @@
 @charset "UTF-8";
-/*RECURSOS*/
+/*UTILIDADES*/
+/*Variables Globales*/
 /*COLORES*/
 @import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
 * {
@@ -151,7 +152,7 @@ li {
 
 a {
   text-decoration: none;
-  color: #000000; }
+  color: #090302; }
 
 h1 {
   font-size: 70px;
@@ -201,7 +202,7 @@ h4 {
   display: inline-flex;
   padding: 15px;
   font-size: 15px;
-  color: #000000; }
+  color: #090302; }
 
 /* MEDIA QUERY = DISPOSITIVOS MEDIANOS */
 /* Dispositivos hasta 768px */
@@ -377,6 +378,7 @@ h4 {
 /* CSS de Sección "STORE" */
 .store-main-grid {
   display: grid;
+  background-color: #6f7d8c;
   grid-template-columns: 33% 34% 33%;
   grid-template-areas: auto;
   width: 100vw;

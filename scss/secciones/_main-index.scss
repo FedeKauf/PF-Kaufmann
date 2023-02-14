@@ -16,7 +16,7 @@ header,
 footer {
   display: flex;
   width: 100vw;
-  background-color: #f6ae2d;
+  background-color: $amarillo;
   align-items: center;
   font-size: 20px;
 }
@@ -24,13 +24,13 @@ footer {
   display: flex;
   list-style: none;
   a:hover {
-    color: #6f7d8c;
+    color: $gris;
     transition: 0.4s;
   }
 }
 .nav__listaMenu--activo {
   font-weight: bolder;
-  color: #6f7d8c;
+  color: $gris;
 }
 ul {
   display: flex;
@@ -43,12 +43,12 @@ ul {
 /* CONTENIDO PRINCIPAL */
 
 main {
-  background-color: #6f7d8c;
+  background-color: $gris;
   width: 100vw;
 }
 .index-main-grid {
   display: grid;
-  background-color: #6f7d8c;
+  background-color: $gris;
   width: 100vw;
   grid-template-columns: 50% 50%;
   grid-template-rows: auto;
@@ -122,15 +122,15 @@ li {
 }
 a {
   text-decoration: none;
-  color: #000000;
+  color: $black;
 }
 h1 {
   font-size: 70px;
-  color: #f6ae2d;
+  color: $amarillo;
   text-align: center;
 }
 h2 {
-  color: #f6ae2d;
+  color: $amarillo;
   text-align: center;
   font-size: 60px;
 }
@@ -138,20 +138,20 @@ h3 {
   font-size: 50px;
   margin: 15px;
   text-align: center;
-  color: #f6ae2d;
-  border: 2px solid #f6ae2d;
+  color: $amarillo;
+  border: 2px solid $amarillo;
   border-radius: 30px;
 }
 h4 {
   font-size: 35px;
   margin: 25px;
   text-align: center;
-  color: #f6ae2d;
-  border: 2px solid #f6ae2d;
+  color: $amarillo;
+  border: 2px solid $amarillo;
   border-radius: 30px;
 }
 .subtitulo {
-  color: #f6ae2d;
+  color: $amarillo;
   margin: 25px;
 }
 
@@ -163,7 +163,7 @@ h4 {
   justify-content: space-evenly;
   align-items: center;
   a:hover {
-    color: #6f7d8c;
+    color: $gris;
     transition: 0.4s;
   }
 }
@@ -176,7 +176,7 @@ h4 {
   display: inline-flex;
   padding: 15px;
   font-size: 15px;
-  color: #000000;
+  color: $black;
 }
 
 /* MEDIA QUERY = DISPOSITIVOS MEDIANOS */

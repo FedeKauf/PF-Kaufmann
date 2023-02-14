@@ -2,7 +2,7 @@
 
 .models-main-grid {
   display: grid;
-  background-color: #6f7d8c;
+  background-color: $gris;
   width: 100vw;
   grid-template-columns: 33% 34% 33%;
   grid-template-rows: auto;

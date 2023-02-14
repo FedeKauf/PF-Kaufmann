@@ -2,6 +2,7 @@
 
 .store-main-grid {
   display: grid;
+  background-color: $gris;
   grid-template-columns: 33% 34% 33%;
   grid-template-areas: auto;
   width: 100vw;
