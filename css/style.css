@@ -24,9 +24,7 @@ font-family: "Staatliches", cursive;
   width: 100vw;
   grid-template-columns: 100%;
   grid-template-rows: auto;
-  grid-template-areas: "aboutus-img1"
- "aboutus-p"
- "aboutus-img2"; }
+  grid-template-areas: "aboutus-img1" "aboutus-p" "aboutus-img2"; }
 
 .aboutus-img1 {
   grid-template-areas: aboutus-img1; }
@@ -90,10 +88,7 @@ main {
   width: 100vw;
   grid-template-columns: 50% 50%;
   grid-template-rows: auto;
-  grid-template-areas: "titulos-h3 titulos-h3"
- "main-grid-video main-grid-video"
- "main-grid-img1 main-grid-img2"
- "main-grid-pexterior main-grid-pinterior"; }
+  grid-template-areas: "titulos-h3 titulos-h3" "main-grid-video main-grid-video" "main-grid-img1 main-grid-img2" "main-grid-pexterior main-grid-pinterior"; }
 
 .titulos-h3 {
   grid-area: titulos-h3;
@@ -253,12 +248,7 @@ h4 {
   .index-main-grid {
     grid-template-columns: 100%;
     grid-template-rows: auto;
-    grid-template-areas: "titulos-h3"
- "main-grid-video"
- "main-grid-img1"
- "main-grid-pexterior"
- "main-grid-img2"
- "main-grid-pinterior"; }
+    grid-template-areas: "titulos-h3" "main-grid-video" "main-grid-img1" "main-grid-pexterior" "main-grid-img2" "main-grid-pinterior"; }
   .main-grid-pexterior p {
     font-size: 0.6rem; }
   .main-grid-pexterior {
@@ -291,8 +281,7 @@ h4 {
   width: 100vw;
   grid-template-columns: 33% 34% 33%;
   grid-template-rows: auto;
-  grid-template-areas: "models-grid-img1 models-grid-img2 models-grid-img3"
- "models-grid-pexterior models-grid-pvgen models-grid-pinterior"; }
+  grid-template-areas: "models-grid-img1 models-grid-img2 models-grid-img3" "models-grid-pexterior models-grid-pvgen models-grid-pinterior"; }
 
 .models-grid-img1 {
   grid-area: models-grid-img1; }
@@ -361,12 +350,7 @@ h4 {
   /* Media Query sección Models */
   .models-main-grid {
     grid-template-columns: 100%;
-    grid-template-areas: "models-grid-img1"
- "models-grid-pexterior"
- "models-grid-img2"
- "models-grid-pvgen"
- "models-grid-img3"
- "models-grid-pinterior"; }
+    grid-template-areas: "models-grid-img1" "models-grid-pexterior" "models-grid-img2" "models-grid-pvgen" "models-grid-img3" "models-grid-pinterior"; }
   .models-grid-pvgen {
     padding: 0px; }
   .models-grid-pvgen p {
@@ -398,10 +382,7 @@ h4 {
   width: 100vw;
   grid-auto-flow: row;
   grid-row-gap: 10px;
-  grid-template-areas: "gap1 gap1-2 gap1-3"
- "p1 p1 p1"
- "gap2 gap2-2 gap2-3"
- "p2 p2 p2"; }
+  grid-template-areas: "gap1 gap1-2 gap1-3" "p1 p1 p1" "gap2 gap2-2 gap2-3" "p2 p2 p2"; }
 
 .gap1 {
   grid-area: gap1; }
