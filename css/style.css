@@ -1,16 +1,16 @@
 @charset "UTF-8";
-/*UTILIDADES*/
+/*VARIABLES*/
 /*Variables Globales*/
 /*COLORES*/
+/*Fuente*/
 @import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+/*RESETEO*/
 * {
   margin: 0;
   padding: 0;
   font-family: "Staatliches", cursive; }
 
-/*Fuente
-font-family: "Staatliches", cursive;
-*/
 /*SECCIONES*/
 /* CSS de Sección "ABOUT US" */
 .about-us__h2__parrafo {
@@ -269,11 +269,15 @@ h4 {
 
 /* CSS de Sección "CONTACT US" */
 .contactus-form {
-  padding: 40px 20px;
-  height: 100vh; }
+  padding: 40px 20px; }
 
 .bg-warning-form {
-  background-color: #f6ae2d; }
+  background-color: #f6ae2d;
+  font-family: "Oswald", sans-serif; }
+
+.form-check-input {
+  background-color: #f6ae2d;
+  border-color: #090302; }
 
 /* CSS de Sección "MODELS */
 .models-main-grid {
@@ -310,18 +314,21 @@ h4 {
 
 .models-grid-pvgen {
   grid-area: models-grid-pvgen;
+  background-color: #e7ecef;
   text-align: justify;
   font-size: 15px;
   padding: 15px; }
 
 .models-grid-pexterior {
   grid-area: models-grid-pexterior;
+  background-color: #6f7d8c;
   text-align: justify;
   font-size: 15px;
   padding: 15px; }
 
 .models-grid-pinterior {
   grid-area: models-grid-pinterior;
+  background-color: #6f7d8c;
   text-align: justify;
   font-size: 15px;
   padding: 15px; }

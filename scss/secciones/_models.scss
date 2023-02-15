@@ -34,23 +34,23 @@
   height: 100%;
   object-fit: cover;
 }
-.models-grid-pvgen {
-  grid-area: models-grid-pvgen;
+@mixin grid-models($fondo){
+  background-color: $fondo;
   text-align: justify;
   font-size: 15px;
   padding: 15px;
+}
+.models-grid-pvgen {
+  grid-area: models-grid-pvgen;
+  @include grid-models($gris-claro)
 }
 .models-grid-pexterior {
   grid-area: models-grid-pexterior;
-  text-align: justify;
-  font-size: 15px;
-  padding: 15px;
+  @include grid-models($gris)
 }
 .models-grid-pinterior {
   grid-area: models-grid-pinterior;
-  text-align: justify;
-  font-size: 15px;
-  padding: 15px;
+  @include grid-models($gris)
 }
 
 /* MEDIA QUERY = DISPOSITIVOS MEDIANOS */

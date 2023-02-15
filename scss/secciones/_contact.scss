@@ -2,8 +2,16 @@
 
 .contactus-form {
   padding: 40px 20px;
-  height: 100vh;
 }
 .bg-warning-form {
   background-color: $amarillo;
+  font-family: $tipografia-form;
 }
+.form-check-input{
+  background-color: $amarillo;
+  border-color: $black;
+}
+
+
+
+
