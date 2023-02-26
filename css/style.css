@@ -17,7 +17,9 @@
   text-align: justify;
   font-size: 18px;
   line-height: 30px;
-  padding: 20px; }
+  padding: 20px;
+  max-width: 60%;
+  margin: auto; }
 
 .aboutus-main-grid {
   display: grid;
@@ -269,7 +271,9 @@ h4 {
 
 /* CSS de Sección "CONTACT US" */
 .contactus-form {
-  padding: 40px 20px; }
+  padding: 40px 20px;
+  max-width: 60%;
+  margin: auto; }
 
 .bg-warning-form {
   background-color: #f6ae2d;
@@ -419,7 +423,9 @@ h4 {
   grid-area: p1;
   text-align: center;
   font-size: 25px;
-  padding: 20px; }
+  padding: 20px;
+  max-width: 60%;
+  margin: auto; }
 
 .gap2 {
   grid-area: gap2; }
@@ -447,4 +453,6 @@ h4 {
   grid-area: p2;
   text-align: center;
   font-size: 25px;
-  padding: 20px; }
+  padding: 20px;
+  max-width: 60%;
+  margin: auto; }
