@@ -22,12 +22,6 @@
     height: 100%;
     object-fit: cover;
   }
-  img:hover{
-    scale: 1.5;
-    box-shadow: 5px 5px 30px rgba(0,0,0,5);
-    transition: 0.4s;
-    z-index: 1;
-  }
 }
 .man-woman{
   max-width: 70%;
@@ -40,19 +34,9 @@
     height: 100%;
     object-fit: cover;
   }
-  img:hover{
-    scale: 1.5;
-    box-shadow: 5px 5px 30px rgba(0,0,0,5);
-    transition: 0.4s;
-    z-index: 1;
-  }
 }
-.gap1-3:hover {
+.gap1-3 {
   grid-area: gap1-3;
-  scale: 1.5;
-  box-shadow: 5px 5px 30px rgba(0,0,0,5);
-  transition: 0.4s;
-  z-index: 1;
 }
 .gap1-3 img {
   width: 100%;
@@ -74,12 +58,6 @@
     height: 100%;
     object-fit: cover;
   }
-  img:hover{
-    scale: 1.5;
-    box-shadow: 5px 5px 30px rgba(0,0,0,5);
-    transition: 0.4s;
-    z-index: 1;
-  }
 }
 .gap2-2 {
   grid-area: gap2-2;
@@ -88,19 +66,9 @@
     height: 100%;
     object-fit: cover;
   }
-  img:hover{
-    scale: 1.5;
-    box-shadow: 5px 5px 30px rgba(0,0,0,5);
-    transition: 0.4s;
-    z-index: 1;
-  }
 }
-.gap2-3:hover {
+.gap2-3 {
   grid-area: gap2-3;
-  scale: 1.5;
-  box-shadow: 5px 5px 30px rgba(0,0,0,5);
-  transition: 0.4s;
-  z-index: 1;
 }
 .gap2-3 img {
   width: 100%;
@@ -115,4 +83,4 @@
   max-width: 60%;
   margin: auto;
 }
- 
+  
