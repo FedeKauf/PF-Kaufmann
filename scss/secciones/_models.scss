@@ -13,33 +13,73 @@
 }
 .models-grid-img1 {
   grid-area: models-grid-img1;
+  img:hover{
+    scale: 1.5;
+    box-shadow: 5px 5px 30px rgba(0,0,0,5);
+    transition: 0.4s;
+    z-index: 1;
+    border-radius: 6px;
+  }
 }
 .models-grid-img1 img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  border: solid 1px black;
+  border-radius: 6px;
+  box-shadow: 5px 5px 30px rgba(0,0,0,5);
+  padding: 5px;
 }
 .models-grid-img2 {
   grid-area: models-grid-img2;
+  img:hover{
+    scale: 1.5;
+    box-shadow: 5px 5px 30px rgba(0,0,0,5);
+    transition: 0.4s;
+    z-index: 1;
+    border-radius: 6px;
+  }
 }
 .models-grid-img2 img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  border: solid 1px black;
+  border-radius: 6px;
+  box-shadow: 5px 5px 30px rgba(0,0,0,5);
+  padding: 5px;
 }
 .models-grid-img3 {
   grid-area: models-grid-img3;
+  img:hover{
+    scale: 1.5;
+    box-shadow: 5px 5px 30px rgba(0,0,0,5);
+    transition: 0.4s;
+    z-index: 1;
+    border-radius: 6px;
+  }
 }
 .models-grid-img3 img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  border: solid 1px black;
+  border-radius: 6px;
+  box-shadow: 5px 5px 30px rgba(0,0,0,5);
+  padding: 5px;
 }
+
 @mixin grid-models($fondo){
   background-color: $fondo;
   text-align: justify;
   font-size: 15px;
-  padding: 15px;
+  padding: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  border: solid 1px black;
+  border-radius: 6px;
+  box-shadow: 5px 5px 25px rgba(0,0,0,5);
+  margin-bottom: 5px;
 }
 .models-grid-pvgen {
   grid-area: models-grid-pvgen;
