@@ -5,7 +5,8 @@
   background-color: $gris;
   grid-template-columns: 33% 34% 33%;
   grid-template-areas: auto;
-  width: 100vw;
+  max-width: 70%;
+  margin: auto;
   grid-auto-flow: row;
   grid-row-gap: 10px;
   grid-template-areas:
@@ -22,7 +23,10 @@
     object-fit: cover;
   }
 }
-
+.man-woman{
+  max-width: 70%;
+  margin: auto;
+}
 .gap1-2 {
   grid-area: gap1-2;
   img {
